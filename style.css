@@ -1,0 +1,43 @@
+section {
+    margin-left: 250px;
+    margin-right: 250px;
+    min-width: 200px;
+}
+
+.container1 {
+    background: white;
+    border: solid 2px blue;
+    min-height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    background: orangered;
+    border: solid 2px blue;
+    min-height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container1 div {
+    height: 50px;
+    width: 50px;
+    background: blue;
+    margin: 10px;
+}
+
+.container2 div {
+    height: 50px;
+    width: 50px;
+    background: purple;
+    margin: 10px;
+}
